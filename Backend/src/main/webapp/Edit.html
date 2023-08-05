@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Edit Invoice</title>
+</head>
+<body>
+	<h1>Edit Invoice</h1>
+	<form method="post" action="/h2h_milestone_3/EditServlet">
+		<label for="sl_no">Serial Number</label>
+		<input type="number" id="sl_no" name="sl_no" required><br><br>
+
+		<label for="order_curr">Order Currency</label>
+		<input type="text" id="order_curr" name="order_curr" required><br><br>
+
+		<label for="comp_code">Company Code</label>
+		<input type="number" id="comp_code" name="comp_code" required><br><br>
+
+		<label for="dist_chan">Distribution Channel</label>
+		<input type="text" id="dist_chan" name="dist_chan" required><br><br>
+
+		<input type="submit" value="Update">
+	</form>
+</body>
+</html>
